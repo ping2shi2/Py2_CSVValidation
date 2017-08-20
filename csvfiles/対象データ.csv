@@ -1,0 +1,14 @@
+列名１,列名２,列名３,列名４,想定結果
+hogehoge01@gmail.com,10001,,True,正常
+hogehoge02@gmail.com,10002,ほげほげ０２,False,正常
+hogehoge03@gmail.com,10003,ほげほげ０３,True,正常
+hogehoge04@gmail.com,,,False,必須エラー
+,10005,,True,必須エラー
+hogehoge06@gmail.com,10006,,,必須エラー
+hogehoge07@gmail.com,10001,ほげほげ０２,True,ユニークエラー
+hogehoge08@gmail.com,8,ほげほげ０３,False,桁数エラー
+hogehoge09@gmail.com,100009,,True,桁数エラー
+hogehoge10@gmail.com,1001@,,False,禁止文字エラー
+ホゲホゲ１１@gmail.com,10011,ほげほげ０２,True,形式エラー
+hogehoge01@gmail.com,10012,ほげほげ０３,Yes,選択エラー
+hogehoge02@google.com,10013,,True,含むエラー
